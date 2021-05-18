@@ -1,0 +1,25 @@
+{
+  "name": "eatabelserver",
+  "version": "1.0.0",
+  "description": "A back end for the Eatabel service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgoggles/eatabelserver.git"
+  },
+  "keywords": [],
+  "author": "Praneeth Gogineni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgoggles/eatabelserver/issues"
+  },
+  "homepage": "https://github.com/pgoggles/eatabelserver#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}

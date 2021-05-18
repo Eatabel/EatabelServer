@@ -13,3 +13,4 @@ app.listen(port, () => {
 });
 
 app.get('/searchUPC/:upc', controllers.upcLookup);
+app.get('/search/:query', controllers.search);

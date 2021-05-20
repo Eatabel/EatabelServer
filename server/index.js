@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Eatabel Server listening at http://localhost:${port}`)
+  console.log(`Eatabel Server listening at http://localhost:${port}`);
 });
 
 app.get('/searchUPC/:upc', controllers.upcLookup);
